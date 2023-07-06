@@ -1,0 +1,54 @@
+'use client'
+
+import Link from "next/link";
+import {buttonVariants} from "@/components/ui/Button";
+import {Mail} from "lucide-react";
+import {cn} from "@/lib/utils";
+import {motion} from "framer-motion";
+
+const CallToAction = () => {
+  return (
+    <div className="container max-w-7xl bg-emerald-50/10 w-full h-full flex flex-col">
+      <motion.h1
+        initial={{y: 50, opacity: 0}}
+        whileInView={{y: 0, opacity: 1}}
+        transition={{duration: 0.5, type: "tween"}}
+        className="text-5xl text-emerald-700 mx-auto font-light"
+      >
+        Get In Touch.
+      </motion.h1>
+      <motion.h4
+        initial={{y: 50, opacity: 0}}
+        whileInView={{y: 0, opacity: 1}}
+        transition={{duration: 0.5, type: "tween"}}
+        className="text-emerald-500 text-2xl mx-auto font-light mt-8 text-center"
+      >
+        If you love biryani as much as I do.
+      </motion.h4>
+      <motion.p
+        initial={{y: 50, opacity: 0}}
+        whileInView={{y: 0, opacity: 1}}
+        transition={{duration: 0.5, type: "tween"}}
+        className="mt-4 text-gray-500 text-base mx-auto max-w-lg tracking-wide text-center font-serif leading-relaxed"
+      >
+        Let's talk about how delicious they are.
+        We can code and create while we eat biryani.
+      </motion.p>
+      <motion.div
+        initial={{y: 50, opacity: 0}}
+        whileInView={{y: 0, opacity: 1}}
+        transition={{duration: 0.5, type: "tween"}}
+        className="mt-8 mx-auto"
+      >
+        <Link
+          target="_blank"
+          href='mailto:aritrabose2003@gmail.com'
+          className={cn('cursor-none', buttonVariants({size: 'lg'}))}
+        >
+          <Mail className="mr-2 h-5 w-5" /> MESSAGE ME
+        </Link>
+      </motion.div>
+    </div>
+  );
+}
+export default CallToAction;
