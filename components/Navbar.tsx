@@ -14,7 +14,7 @@ const Navbar = () => {
           <div className="gap-10 hidden md:flex text-emerald-600 font-light text-xl">
             <Navlink href='/' name='about' idx={0}/>
             <Navlink href='/projects' name='projects' idx={1} />
-            <Navlink href='https://drive.google.com/file/d/1pyR9_B0-JgyLwXpCOEN9NGuDtSgVaZmR/view?usp=share_link' name='resume' idx={2}/>
+            <Navlink href='https://drive.google.com/file/d/1EGXCdzFfzvNo7MPXGNQWZA7sOiUAa-NB/view?usp=share_link' name='resume' idx={2}/>
           </div>
           <div className="md:hidden">
             <Hamburger />
