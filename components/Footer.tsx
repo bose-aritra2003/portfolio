@@ -73,10 +73,10 @@ const Footer = () => {
           className="font-serif mx-auto text-xs text-emerald-600 flex items-center"
         >
           <Copyright size={12}/>
-          2023
+          2023&nbsp;
           <Link
             href={'/'}
-            className="underline underline-offset-2 hover:text-emerald-900 transition-colors cursor-none pl-1"
+            className="underline underline-offset-2 hover:text-emerald-900 transition-colors cursor-none"
           >
             Aritra Bose
           </Link>.

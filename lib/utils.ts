@@ -73,7 +73,7 @@ export const getProjects = () => {
   const projects: Project[] = [
     {
       title: 'Portfolio',
-      description: 'Minimalistic and fully responsive portfolio website inspired from Seán Halpin\'s design. With beautiful animations powered by Framer Motion and Tailwind CSS.',
+      description: 'Minimalistic and fully responsive portfolio website inspired from Seán Halpin\'s design. Beautifully crafted with subtle yet elegant animations that bring the UI to life.',
       name: 'portfolio',
       theme: 'emerald',
       background: 'bg-emerald-300',
