@@ -31,7 +31,7 @@ const CallToAction = () => {
         transition={{duration: 0.5, type: "tween"}}
         className="mt-4 text-gray-500 text-base mx-auto max-w-lg tracking-wide text-center font-serif leading-relaxed"
       >
-        Let's talk about how delicious they are.
+        Let&apos;s talk about how delicious they are.
         We can code and create while we eat biryani.
       </motion.p>
       <motion.div

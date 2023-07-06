@@ -36,7 +36,7 @@ const Intro = () => {
         transition={{duration: 0.5, type: "tween"}}
         className="text-gray-500 text-lg mx-auto max-w-lg tracking-wide text-center font-serif leading-relaxed"
       >
-        I'm a fullstack web developer based in India.
+        I&apos;m a fullstack web developer based in India.
         I enjoy building full-stack web applications with a passion for crafting elegant digital experiences.
       </motion.p>
     </div>

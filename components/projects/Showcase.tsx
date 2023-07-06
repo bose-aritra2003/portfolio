@@ -20,7 +20,10 @@ const Showcase = () => {
       github,
       live,
     }, idx) => (
-      <div className={cn("w-full h-full flex flex-col py-24 gap-8", background, text)}>
+      <div
+        key={idx}
+        className={cn("w-full h-full flex flex-col py-24 gap-8", background, text)}
+      >
         <div className={cn(
           "flex flex-col items-center justify-center container max-w-7xl gap-10 md:gap-6",
           idx % 2 === 0 && 'md:flex-row',

@@ -36,7 +36,7 @@ const Hero = () => {
         className="flex flex-col"
       >
         <h1 className={cn("text-7xl md:text-8xl text-emerald-500 flex justify-center", sacramento.className)}>
-          I'm Aritra .
+          I&apos;m Aritra .
         </h1>
         <p className="font-extralight text-emerald-500 text-xl md:text-2xl flex justify-center">
           a web developer.
