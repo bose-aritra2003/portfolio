@@ -3,6 +3,7 @@ import Image from "next/image";
 const Logo = () => {
   return (
     <Image
+      priority
       src='/images/logo.svg'
       alt='logo'
       width={128}
