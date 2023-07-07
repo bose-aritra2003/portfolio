@@ -25,7 +25,7 @@ const Intro = () => {
         initial={{y: 50, opacity: 0}}
         whileInView={{y: 0, opacity: 1}}
         transition={{duration: 1, type: "spring"}}
-        className="text-emerald-500 text-3xl mx-auto font-light"
+        className="text-emerald-500 text-2xl md:text-3xl mx-auto font-light"
       >
         Hello.
       </motion.h3>
@@ -34,7 +34,7 @@ const Intro = () => {
         initial={{y: 50, opacity: 0}}
         whileInView={{y: 0, opacity: 1}}
         transition={{duration: 1, type: "spring"}}
-        className="text-gray-500 text-lg mx-auto max-w-lg tracking-wide text-center font-serif leading-relaxed"
+        className="text-gray-500 text-base md:text-lg mx-auto max-w-lg tracking-wide text-center font-serif leading-relaxed"
       >
         I&apos;m a fullstack web developer based in India.
         I enjoy building full-stack web applications with a passion for crafting elegant digital experiences.
