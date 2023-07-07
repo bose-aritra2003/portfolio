@@ -13,6 +13,7 @@ const Intro = () => {
         transition={{duration: 1, type: "spring"}}
       >
         <Image
+          priority
           width={512}
           height={512}
           src='/images/pencil.svg'
