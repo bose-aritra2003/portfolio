@@ -12,7 +12,7 @@ const Footer = () => {
           <motion.div
             initial={{x: -60, opacity: 0}}
             whileInView={{x: 0, opacity: 1}}
-            transition={{duration: 1.1, type: "spring"}}
+            transition={{duration: 1.5, type: "spring"}}
           >
             <Link
               target="_blank"
@@ -54,7 +54,7 @@ const Footer = () => {
           <motion.div
             initial={{x: 60, opacity: 0}}
             whileInView={{x: 0, opacity: 1}}
-            transition={{duration: 1.1, type: "spring"}}
+            transition={{duration: 1.5, type: "spring"}}
           >
             <Link
               target="_blank"
