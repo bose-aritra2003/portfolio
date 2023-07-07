@@ -17,7 +17,7 @@ const Hero = () => {
       <motion.h1
         initial={{y: -50, opacity: 0}}
         whileInView={{y: 0, opacity: 1}}
-        transition={{duration: 0.5, type: "tween"}}
+        transition={{duration: 1, type: "spring"}}
         className={cn("text-7xl md:text-8xl text-emerald-500 flex justify-center", sacramento.className)}
       >
         Projects .
@@ -28,7 +28,7 @@ const Hero = () => {
       <motion.div
         initial={{y: 50, opacity: 0}}
         whileInView={{y: 0, opacity: 1}}
-        transition={{duration: 0.5, type: "tween"}}
+        transition={{duration: 1, type: "spring"}}
         className="pt-6"
       >
         <Waves />

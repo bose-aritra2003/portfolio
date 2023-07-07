@@ -17,7 +17,7 @@ const Navbar = () => {
           <div className="gap-10 hidden md:flex text-emerald-600 font-light text-xl">
             {
               navItems.map(({name, href}, idx) => (
-                <Navlink key={idx} href={href} name={name} idx={idx}/>
+                <Navlink key={idx} href={href} name={name}/>
               ))
             }
           </div>

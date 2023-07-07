@@ -24,7 +24,7 @@ const Detail = ({degree, year, school, location, image, dept, idx}: DetailProps)
       <motion.div
         initial={{y: 50, opacity: 0}}
         whileInView={{y: 0, opacity: 1}}
-        transition={{duration: 0.5, type: "tween"}}
+        transition={{duration: 1, type: "spring"}}
         className="grid grid-cols-2 gap-16 md:gap-36 items-center"
       >
         <div className={cn(

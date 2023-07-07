@@ -32,7 +32,7 @@ const Showcase = () => {
           <motion.div
             initial={idx % 2 === 0 ? {x: -50, opacity: 0} : {x: 50, opacity: 0}}
             whileInView={{x: 0, opacity: 1}}
-            transition={{duration: 0.5, type: "tween"}}
+            transition={{duration: 1, type: "spring"}}
             className="w-full"
           >
             <Image
@@ -40,14 +40,13 @@ const Showcase = () => {
               alt='moments'
               width={512}
               height={512}
-              className="drop-shadow-2xl"
             />
           </motion.div>
 
           <motion.div
             initial={idx % 2 === 0 ? {x: 50, opacity: 0} : {x: -50, opacity: 0}}
             whileInView={{x: 0, opacity: 1}}
-            transition={{duration: 0.5, type: "tween"}}
+            transition={{duration: 1, type: "spring"}}
             className="flex flex-col gap-4"
           >
             <h1 className={cn(

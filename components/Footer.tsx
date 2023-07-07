@@ -12,7 +12,7 @@ const Footer = () => {
           <motion.div
             initial={{x: -60, opacity: 0}}
             whileInView={{x: 0, opacity: 1}}
-            transition={{duration: 0.6, type: "tween"}}
+            transition={{duration: 1.1, type: "spring"}}
           >
             <Link
               target="_blank"
@@ -26,7 +26,7 @@ const Footer = () => {
           <motion.div
             initial={{x: -50, opacity: 0}}
             whileInView={{x: 0, opacity: 1}}
-            transition={{duration: 0.5, type: "tween"}}
+            transition={{duration: 1, type: "spring"}}
           >
             <Link
               target="_blank"
@@ -40,7 +40,7 @@ const Footer = () => {
           <motion.div
             initial={{x: 50, opacity: 0}}
             whileInView={{x: 0, opacity: 1}}
-            transition={{duration: 0.5, type: "tween"}}
+            transition={{duration: 1, type: "spring"}}
           >
             <Link
               target="_blank"
@@ -54,7 +54,7 @@ const Footer = () => {
           <motion.div
             initial={{x: 60, opacity: 0}}
             whileInView={{x: 0, opacity: 1}}
-            transition={{duration: 0.60, type: "tween"}}
+            transition={{duration: 1.1, type: "spring"}}
           >
             <Link
               target="_blank"
@@ -69,7 +69,7 @@ const Footer = () => {
         <motion.p
           initial={{opacity: 0}}
           whileInView={{opacity: 1}}
-          transition={{duration: 0.5, type: "tween"}}
+          transition={{duration: 1, type: "spring"}}
           className="font-serif mx-auto text-xs text-emerald-600 flex items-center"
         >
           <Copyright size={12}/>

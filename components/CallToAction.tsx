@@ -12,7 +12,7 @@ const CallToAction = () => {
       <motion.h1
         initial={{y: 50, opacity: 0}}
         whileInView={{y: 0, opacity: 1}}
-        transition={{duration: 0.5, type: "tween"}}
+        transition={{duration: 1, type: "spring"}}
         className="text-5xl text-emerald-700 mx-auto font-light"
       >
         Get In Touch.
@@ -20,7 +20,7 @@ const CallToAction = () => {
       <motion.h4
         initial={{y: 50, opacity: 0}}
         whileInView={{y: 0, opacity: 1}}
-        transition={{duration: 0.5, type: "tween"}}
+        transition={{duration: 1, type: "spring"}}
         className="text-emerald-500 text-2xl mx-auto font-light mt-8 text-center"
       >
         If you love biryani as much as I do.
@@ -28,7 +28,7 @@ const CallToAction = () => {
       <motion.p
         initial={{y: 50, opacity: 0}}
         whileInView={{y: 0, opacity: 1}}
-        transition={{duration: 0.5, type: "tween"}}
+        transition={{duration: 1, type: "spring"}}
         className="mt-4 text-gray-500 text-base mx-auto max-w-lg tracking-wide text-center font-serif leading-relaxed"
       >
         Let&apos;s talk about how delicious they are.
@@ -37,7 +37,7 @@ const CallToAction = () => {
       <motion.div
         initial={{y: 50, opacity: 0}}
         whileInView={{y: 0, opacity: 1}}
-        transition={{duration: 0.5, type: "tween"}}
+        transition={{duration: 1, type: "spring"}}
         className="mt-8 mx-auto"
       >
         <Link

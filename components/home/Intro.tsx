@@ -10,7 +10,7 @@ const Intro = () => {
       <motion.div
         initial={{y: 50, opacity: 0}}
         whileInView={{y: 0, opacity: 1}}
-        transition={{duration: 0.5, type: "tween"}}
+        transition={{duration: 1, type: "spring"}}
       >
         <Image
           width={512}
@@ -24,7 +24,7 @@ const Intro = () => {
       <motion.h3
         initial={{y: 50, opacity: 0}}
         whileInView={{y: 0, opacity: 1}}
-        transition={{duration: 0.5, type: "tween"}}
+        transition={{duration: 1, type: "spring"}}
         className="text-emerald-500 text-3xl mx-auto font-light"
       >
         Hello.
@@ -33,7 +33,7 @@ const Intro = () => {
       <motion.p
         initial={{y: 50, opacity: 0}}
         whileInView={{y: 0, opacity: 1}}
-        transition={{duration: 0.5, type: "tween"}}
+        transition={{duration: 1, type: "spring"}}
         className="text-gray-500 text-lg mx-auto max-w-lg tracking-wide text-center font-serif leading-relaxed"
       >
         I&apos;m a fullstack web developer based in India.

@@ -21,7 +21,7 @@ const Skills = () => {
               initial={{y: 50 + (idx * 5), opacity: 0, scale: 1}}
               whileInView={{y: 0, opacity: 1}}
               whileHover={{scale: 1.2}}
-              transition={{duration: 0.5, type: "tween"}}
+              transition={{duration: 1, type: "spring"}}
             >
               <Link
                 target="_blank"

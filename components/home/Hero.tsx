@@ -17,7 +17,7 @@ const Hero = () => {
       <motion.div
         initial={{x: 50, opacity: 0}}
         whileInView={{x: 0, opacity: 1}}
-        transition={{duration: 0.5, type: "tween"}}
+        transition={{duration: 1, type: "spring"}}
         className="flex justify-end mr-2 md:mr-64 mt-2"
       >
         <Image
@@ -32,7 +32,7 @@ const Hero = () => {
       <motion.div
         initial={{y: -50, opacity: 0}}
         whileInView={{y: 0, opacity: 1}}
-        transition={{duration: 0.5, type: "tween"}}
+        transition={{duration: 1, type: "spring"}}
         className="flex flex-col"
       >
         <h1 className={cn("text-7xl md:text-8xl text-emerald-500 flex justify-center", sacramento.className)}>
@@ -45,7 +45,7 @@ const Hero = () => {
       <motion.div
         initial={{x: -50, opacity: 0}}
         whileInView={{x: 0, opacity: 1}}
-        transition={{duration: 0.5, type: "tween"}}
+        transition={{duration: 1, type: "spring"}}
         className="flex justify-start ml-2 md:ml-64"
       >
         <Image
@@ -59,7 +59,7 @@ const Hero = () => {
       <motion.div
         initial={{y: 50, opacity: 0}}
         whileInView={{y: 0, opacity: 1}}
-        transition={{duration: 0.5, type: "tween"}}
+        transition={{duration: 1, type: "spring"}}
       >
         <Image
           priority
