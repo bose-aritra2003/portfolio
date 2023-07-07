@@ -10,9 +10,9 @@ const Footer = () => {
       <div className="container max-w-7xl h-full mx-auto flex flex-col items-center justify-center gap-7">
         <div className="gap-8 md:gap-16 flex text-emerald-600 font-light text-lg items-center">
           <motion.div
-            initial={{x: -100, opacity: 0}}
+            initial={{x: -60, opacity: 0}}
             whileInView={{x: 0, opacity: 1}}
-            transition={{duration: 0.75, type: "tween"}}
+            transition={{duration: 0.6, type: "tween"}}
           >
             <Link
               target="_blank"
@@ -52,9 +52,9 @@ const Footer = () => {
           </motion.div>
 
           <motion.div
-            initial={{x: 100, opacity: 0}}
+            initial={{x: 60, opacity: 0}}
             whileInView={{x: 0, opacity: 1}}
-            transition={{duration: 0.75, type: "tween"}}
+            transition={{duration: 0.60, type: "tween"}}
           >
             <Link
               target="_blank"

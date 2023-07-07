@@ -1,27 +1,48 @@
 import {ClassValue, clsx} from 'clsx'
 import {twMerge} from 'tailwind-merge'
+import {Presentation, Scroll, User2} from "lucide-react";
 
 export const cn = (...inputs: ClassValue[]) => {
   return twMerge(clsx(inputs));
+}
+
+export const getNavItems = () => {
+  return [
+    {
+      name: 'about',
+      href: '/',
+      icon: User2,
+    },
+    {
+      name: 'projects',
+      href: '/projects',
+      icon: Presentation,
+    },
+    {
+      name: 'resume',
+      href: 'https://drive.google.com/file/d/1EGXCdzFfzvNo7MPXGNQWZA7sOiUAa-NB/view?usp=share_link',
+      icon: Scroll,
+    }
+  ];
 }
 
 export const getSkills = () => {
   return [
     {
       name: 'nextjs',
-      url: 'https://nextjs.org'
+      url: 'https://nextjs.org',
     },
     {
       name: 'react',
-      url: 'https://react.dev'
+      url: 'https://react.dev',
     },
     {
       name: 'tailwind',
-      url: 'https://tailwindcss.com'
+      url: 'https://tailwindcss.com',
     },
     {
       name: 'mongodb',
-      url: 'https://www.mongodb.com'
+      url: 'https://www.mongodb.com',
     },
     {
       name: 'prisma',
@@ -29,31 +50,31 @@ export const getSkills = () => {
     },
     {
       name: 'planetscale',
-      url: 'https://planetscale.com'
+      url: 'https://planetscale.com',
     },
     {
-      name: 'git',
-      url: 'https://git-scm.com'
+      name: 'zustand',
+      url: 'https://zustand-demo.pmnd.rs',
     },
     {
       name: 'github',
-      url: 'https://github.com'
+      url: 'https://github.com',
     },
     {
       name: 'cpp',
-      url: 'https://isocpp.org'
+      url: 'https://isocpp.org',
     },
     {
       name: 'typescript',
-      url: 'https://typescriptlang.org'
+      url: 'https://typescriptlang.org',
     },
     {
       name: 'java',
-      url: 'https://java.com'
+      url: 'https://java.com',
     },
     {
       name: 'python',
-      url: 'https://python.org'
+      url: 'https://python.org',
     }
   ];
 }
@@ -160,5 +181,5 @@ export const getEducation = () => {
       image: '/education/graduation-cap.svg',
       dept: 'Information Technology',
     },
-  ]
+  ];
 }

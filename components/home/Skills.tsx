@@ -18,10 +18,10 @@ const Skills = () => {
           skills.map(({ name, url }, idx) => (
             <motion.div
               key={idx}
-              initial={{y: 50, opacity: 0}}
+              initial={{y: 50 + (idx * 5), opacity: 0, scale: 1}}
               whileInView={{y: 0, opacity: 1}}
-              transition={{duration: 0.5, type: "tween"}}
               whileHover={{scale: 1.2}}
+              transition={{duration: 0.5, type: "tween"}}
             >
               <Link
                 target="_blank"
