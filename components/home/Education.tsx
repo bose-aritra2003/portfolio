@@ -31,7 +31,7 @@ const Detail = ({degree, year, school, location, image, dept, idx}: DetailProps)
           "flex flex-col text-right",
           idx % 2 === 0 && "order-last text-left"
         )}>
-          <h3 className="font-medium text-emerald-500 text-sm md:text-2xl truncate">
+          <h3 className="font-medium text-emerald-500 text-sm md:text-2xl">
             {degree}
           </h3>
           <p className="uppercase text-xs md:text-base text-gray-400">
@@ -74,7 +74,7 @@ const Education = () => {
 
   return (
     <div className="container max-w-7xl bg-emerald-50/25 w-full h-full flex flex-col gap-8">
-      <h1 className="text-5xl text-emerald-700 mx-auto font-light">My Education.</h1>
+      <h1 className="text-4xl md:text-5xl text-emerald-700 mx-auto font-light">My Education.</h1>
       <div className="mx-auto relative">
         <div
           className="absolute left-1/2 top-20 w-1 h-3/4 bg-emerald-100 origin-top"

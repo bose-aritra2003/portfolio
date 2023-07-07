@@ -75,7 +75,7 @@ const Showcase = () => {
                   'cursor-none w-fit',
                 )}
               >
-                <Github className="mr-2 h-5 w-5"/> VIEW ON GITHUB
+                <Github className="mr-2 h-4 w-4 md:h-5 md:w-5"/> View on GitHub
               </Link>
               <Link
                 target="_blank"
@@ -90,7 +90,7 @@ const Showcase = () => {
                     'hover:bg-gray-500/25'
                 )}
               >
-                <ArrowUpRightFromCircle className="mr-2 h-4 w-4"/> LIVE DEMO
+                <ArrowUpRightFromCircle className="mr-2 h-4 w-4"/> Live Demo
                 <ChevronRight className="ml-1 h-4 w-4 group-hover:translate-x-1 transition"/>
               </Link>
             </div>

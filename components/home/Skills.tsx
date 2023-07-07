@@ -10,7 +10,7 @@ const Skills = () => {
 
   return (
     <div className="container max-w-7xl bg-emerald-50/10 w-full h-full flex flex-col gap-8">
-      <h1 className="text-5xl text-emerald-700 mx-auto font-light">My Skills.</h1>
+      <h1 className="text-4xl md:text-5xl text-emerald-700 mx-auto font-light">My Skills.</h1>
       <motion.div
         className="grid grid-cols-3 md:grid-cols-4 mx-auto gap-16 md:gap-24 pt-12 items-center"
       >

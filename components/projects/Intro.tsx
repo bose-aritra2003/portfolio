@@ -25,14 +25,14 @@ const Intro = () => {
         initial={{y: 50, opacity: 0}}
         whileInView={{y: 0, opacity: 1}}
         transition={{duration: 1, type: "spring"}}
-        className="text-emerald-500 text-3xl mx-auto font-light">
+        className="text-emerald-500 text-2xl md:text-3xl mx-auto font-light">
         What I&apos;ve been up to.
       </motion.h3>
       <motion.div
         initial={{y: 50, opacity: 0}}
         whileInView={{y: 0, opacity: 1}}
         transition={{duration: 1, type: "spring"}}
-        className="flex flex-col gap-2 text-gray-500 text-lg mx-auto max-w-2xl tracking-wide text-center font-serif leading-relaxed"
+        className="flex flex-col gap-2 text-gray-500 text-base md:text-lg mx-auto max-w-2xl tracking-wide text-center font-serif leading-relaxed"
       >
         <p>Here&apos;s a selection of some recent work.</p>
         <p>

@@ -161,21 +161,21 @@ export const getEducation = () => {
   return [
     {
       degree: 'Secondary',
-      year: '2011 - 2019',
+      year: '2009',
       school: 'St. Mary\'s School',
       location: 'Dum Dum, Kolkata',
       image: '/education/school-bag.svg'
     },
     {
       degree: 'Higher Secondary',
-      year: '2019 - 2021',
+      year: '2021',
       school: 'Aditya Academy',
       location: 'Kadambagachi, Barasat',
       image: '/education/high-school.svg'
     },
     {
       degree: 'Bachelor of Technology',
-      year: '2021 - 2025',
+      year: '2025',
       school: 'IIEST Shibpur',
       location: 'Shibpur, Howrah',
       image: '/education/graduation-cap.svg',
