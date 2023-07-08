@@ -57,8 +57,8 @@ export const getSkills = () => {
       url: 'https://zustand-demo.pmnd.rs',
     },
     {
-      name: 'github',
-      url: 'https://github.com',
+      name: 'git',
+      url: 'https://git-scm.com',
     },
     {
       name: 'cpp',
