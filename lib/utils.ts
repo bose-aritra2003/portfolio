@@ -161,7 +161,7 @@ export const getEducation = () => {
   return [
     {
       degree: 'Secondary',
-      year: '2009',
+      year: '2019',
       school: 'St. Mary\'s School',
       location: 'Dum Dum, Kolkata',
       image: '/education/school-bag.svg'
