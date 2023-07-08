@@ -20,7 +20,7 @@ export const getNavItems = () => {
     },
     {
       name: 'resume',
-      href: 'https://drive.google.com/file/d/1EGXCdzFfzvNo7MPXGNQWZA7sOiUAa-NB/view?usp=share_link',
+      href: 'https://drive.google.com/file/d/1Key2_ra7dWBmg9pqy1beSal_E_EniZ9g/view?usp=share_link',
       icon: Scroll,
     }
   ];
