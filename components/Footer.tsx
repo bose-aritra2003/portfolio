@@ -31,9 +31,9 @@ const Footer = () => {
             <Link
               target="_blank"
               className="hover:text-emerald-900 transition-colors cursor-none"
-              href='https://leetcode.com/bose_aritra2003/'
+              href='https://www.linkedin.com/in/bose-aritra2003/'
             >
-              leetcode
+              linkedin
             </Link>
           </motion.div>
 
@@ -45,9 +45,9 @@ const Footer = () => {
             <Link
               target="_blank"
               className="hover:text-emerald-900 transition-colors cursor-none"
-              href='https://www.linkedin.com/in/bose-aritra2003/'
+              href='https://www.threads.net/@bose_aritra2003'
             >
-              linkedin
+              threads
             </Link>
           </motion.div>
 
